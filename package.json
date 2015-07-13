@@ -1,0 +1,24 @@
+{
+  "name": "overlay",
+  "version": "1.0.0",
+  "description": "Super simple overlay. Ensure that you have a `classList` polyfill for older browsers.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ubergrape/overlay.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubergrape/overlay/issues"
+  },
+  "homepage": "https://github.com/ubergrape/overlay",
+  "dependencies": {
+    "component-emitter": "^1.2.0",
+    "after-transition": "ubergrape/after-transition",
+    "redraw": "ubergrape/redraw"
+  }
+}
